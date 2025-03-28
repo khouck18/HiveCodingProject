@@ -1,3 +1,5 @@
+/* Dropdown reusable component */
+
 import React, { useState, useEffect, useRef } from "react";
 import { getTruncatedSelectedValues } from "../utils/dropdownHelpers";
 import "./Dropdown.css";

@@ -1,3 +1,4 @@
+/* Util file for dropdown component */
 export const getTruncatedSelectedValues = (selectedValues, maxLength = 50) => {
   const displayedValues = Array.isArray(selectedValues)
     ? selectedValues.join(", ")
